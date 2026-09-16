@@ -1360,9 +1360,7 @@ function ScenarioComparison({
   const winRateDelta =
     current.winRate - baseline.winRate;
 
-  const signalDelta =
-    current.signals - baseline.signals;
-
+  
   let status:
     | "ROBUST"
     | "CHANGED"
